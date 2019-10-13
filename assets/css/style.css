@@ -1,0 +1,13 @@
+.navbar-brand {
+    background-color: #4aaaa5;
+    color: #fff;
+}
+
+.navbar-toggler {
+    color: #666;
+    border-color: #4aaaa5;
+}
+
+.navbar-nav {
+    margin: 0% 0% 0% 75%;
+}
