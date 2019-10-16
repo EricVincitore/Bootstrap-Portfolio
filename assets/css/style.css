@@ -1,6 +1,10 @@
 body {
     background-image: url(../images/qbkls.png);
 }
+a:not([href]):not([tabindex]), a:not([href]):not([tabindex]) :hover {
+    color: #fff;
+    background-color: #4aaaa5;
+}
 
 .navbar-brand {
     color: #ffffff;
@@ -15,29 +19,39 @@ body {
     left: 10%;
 }
 
+.navbar-brand :hover {
+    background-color: #fff;
+    color: #4aaaa5;
+}
+
 .navbar-toggler {
     color: #666;
     border-color: #4aaaa5;
 }
 
 .navbar-nav {
-    color: #666;
     margin: 0% 0% 0% 75%;
 }
 
+a {
+    color: #666;
+} 
+
 .navbar-nav :hover {
     background-color: #4aaaa5;
-    font-family: Arial, Helvetica, sans-serif;
-    display: block;
     color: #fff;
     text-decoration: none;
 }
 
 .container {
+    margin: 10% 10% 10% 10%;
+    width: 80%;
+    background-color: #ffffff;
 
 }
 
-footer{
+.fixed-bottom, .bg-dark {
+    height: 5%;
     background-color: #666;
     border-top-color: #4aaaa5;
 }
