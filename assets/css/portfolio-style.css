@@ -1,4 +1,57 @@
-.card-img {
-    width: 300px;
-    height: 250px;
+body {
+    background-image: url(../images/qbkls.png);
+}
+a:not([href]):not([tabindex]), a:not([href]):not([tabindex]) :hover {
+    color: #fff;
+    background-color: #4aaaa5;
+}
+
+.navbar-brand {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    text-align: center;
+    font-size: 35px;
+    height: 50px;
+    width: 225px;
+    margin: 0%;
+    padding: 0%;
+    position: relative;
+    left: 10%;
+}
+
+.navbar-brand :hover {
+    background-color: #fff;
+    color: #4aaaa5;
+}
+
+.navbar-toggler {
+    color: #666;
+    border-color: #4aaaa5;
+}
+
+.navbar-nav {
+    margin: 0% 0% 0% 75%;
+}
+
+a {
+    color: #666;
+} 
+
+.navbar-nav :hover {
+    background-color: #4aaaa5;
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {
+    margin: 10% 10% 10% 10%;
+    width: 80%;
+    background-color: #ffffff;
+
+}
+
+.fixed-bottom, .bg-dark {
+    height: 5%;
+    background-color: #666;
+    border-top-color: #4aaaa5;
 }
