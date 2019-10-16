@@ -50,6 +50,10 @@ a {
 
 }
 
+h2 {
+    color: #4aaaa5;
+}
+
 .fixed-bottom, .bg-dark {
     height: 5%;
     background-color: #666;
