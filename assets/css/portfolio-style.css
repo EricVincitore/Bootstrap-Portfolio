@@ -50,6 +50,19 @@ a {
 
 }
 
+img {
+    margin: 5% 0% 5% 0%;
+}
+
+.card-img-overlay {
+    color: #fff;
+    background-color: #4aaaa5;
+    width: 100%;
+    text-align: center;
+    padding: 2.5% 0% 5% 0%;
+    bottom: 10%;
+}
+
 h2 {
     color: #4aaaa5;
 }
