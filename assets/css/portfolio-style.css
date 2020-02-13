@@ -1,18 +1,21 @@
 body {
-    background-image: url(../images/qbkls.png);
+    background-image: url("http://getwallpapers.com/wallpaper/full/1/1/3/626964.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 a:not([href]):not([tabindex]), a:not([href]):not([tabindex]) :hover {
     color: #fff;
     background-color: #4aaaa5;
 }
 
 .navbar-brand {
-    color: #ffffff;
+    color: #fff;
     background-color: #4aaaa5;
     text-align: center;
     font-size: 35px;
-    height: 50px;
-    width: 225px;
     margin: 0%;
     padding: 0%;
     position: relative;
@@ -20,12 +23,16 @@ a:not([href]):not([tabindex]), a:not([href]):not([tabindex]) :hover {
 }
 
 .navbar-brand :hover {
-    background-color: #fff;
+    background-color: #9DA6B9;
     color: #4aaaa5;
 }
 
+.nav-item {
+    color: #fff;
+}
+
 .navbar-toggler {
-    color: #666;
+    color: #fff;
     border-color: #4aaaa5;
 }
 
@@ -44,9 +51,10 @@ a {
 }
 
 .container {
-    margin: 10% 10% 10% 10%;
-    width: 80%;
-    background-color: #ffffff;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 100%;
+    background-color: #CDCDCD;
 
 }
 
@@ -55,7 +63,7 @@ img {
 }
 
 .card-img-overlay {
-    color: #fff;
+    color: #9DA6B9;
     background-color: #4aaaa5;
     width: 100%;
     text-align: center;
@@ -68,7 +76,10 @@ h2 {
 }
 
 .fixed-bottom, .bg-dark {
-    height: 5%;
     background-color: #666;
     border-top-color: #4aaaa5;
+}
+
+.card-img-top {
+    height: 200px;
 }
