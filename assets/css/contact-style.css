@@ -31,9 +31,8 @@ a:not([href]):not([tabindex]), a:not([href]):not([tabindex]) :hover {
     color: #fff;
 }
 
-.navbar-brand :hover {
-    background-color: #fff;
-    color: #4aaaa5;
+.navbar-brand:hover {
+    color:  #666;
 }
 
 .navbar-toggler {

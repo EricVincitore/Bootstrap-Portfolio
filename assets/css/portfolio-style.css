@@ -22,9 +22,8 @@ a:not([href]):not([tabindex]), a:not([href]):not([tabindex]) :hover {
     left: 10%;
 }
 
-.navbar-brand :hover {
-    background-color: #9DA6B9;
-    color: #4aaaa5;
+.navbar-brand:hover {
+    color:  #666;
 }
 
 .nav-item {
@@ -82,4 +81,14 @@ h2 {
 
 .card-img-top {
     height: 200px;
+}
+
+.label {
+    color: black
+}
+
+.label:hover {
+    color: #4aaaa5;
+    text-decoration: underline; 
+    cursor: pointer;
 }

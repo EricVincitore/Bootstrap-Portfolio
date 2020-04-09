@@ -27,9 +27,8 @@ body {
     left: 10%;
 }
 
-.navbar-brand :hover {
-    background-color: #fff;
-    color: #4aaaa5;
+.navbar-brand:hover {
+    color:  #666;
 }
 
 .nav-item {
