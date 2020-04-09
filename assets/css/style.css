@@ -11,7 +11,7 @@ body {
     overflow: hidden;
 }
 
-a:not([href]):not([tabindex]), a:not([href]):not([tabindex]) :hover {
+.nav-item:not([href]):not([tabindex]), .nav-item:not([href]):not([tabindex]) :hover {
     color: #fff;
     background-color: #4aaaa5;
 }
@@ -69,4 +69,16 @@ h2 {
 .footer {
     background-color: #666;
     border-top-color: #4aaaa5;
+}
+
+.contactEmail, .linkedIn, .github {
+    text-decoration: underline; 
+    cursor: pointer;
+    color: black;
+}
+
+.contactEmail:hover, .linkedIn:hover, .github:hover{
+    text-decoration: underline; 
+    cursor: pointer;
+    color: #4aaaa5;
 }
