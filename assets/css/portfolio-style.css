@@ -106,6 +106,7 @@ h2 {
     background-color: #4aaaa5;
 }
 
-.modal-content {
-    background-color: #CDCDCD;
+.card-body {
+    display: flex;
+    justify-content: center;
 }
