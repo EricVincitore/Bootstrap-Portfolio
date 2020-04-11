@@ -8,8 +8,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/portfolio-style.css">
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="assets/js/portfolio.js"></script>
+    
 </head>
 
 <body>
@@ -32,6 +31,31 @@
 
 
         <div class="container">
+              
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      
+                    </div>
+                    <div class="modal-footer">
+                        <a type="button" class="btn btn-secondary appBtn" href="#" target="_blank">View App</a>
+                        <a type="button" class="btn btn-secondary gitBtn" href="#" target="_blank">Github Page</a>
+                        <button type="button" class="btn btn-dark" data-dismiss="modal" href="#">Close</button>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            
 
             <div class="row">
                 <div class="col-sm-12">
@@ -47,12 +71,9 @@
                                 <img src="https://cdn.hipwallpaper.com/i/52/20/i4kdLy.jpg"
                                     class="card-img-top" alt="Command Central Image">
                                 <div class="card-body">
-                                    <a href="https://command-central.herokuapp.com/" target="_blank"><span
-                                        id="CCLabel" class="label">Command Central</span></a>
-                                <br>
-                                <a href="https://github.com/EricVincitore/command-central" target="_blank"><label
-                                    class="label">Github Page
-                                    </h3></a>
+                                    <button type="button" class="btn btn-secondary CCBtn" data-toggle="modal" data-target="#exampleModal">
+                                        Command Central
+                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -64,12 +85,9 @@
                                 <img src="https://cdn11.bigcommerce.com/s-fg272t4iw0/images/stencil/1280x1280/products/5231/5484/C-15278__16454.1557817162.jpg?c=2&imbypass=on"
                                     class="card-img-top" alt="Mtg Data Fish">
                                 <div class="card-body">
-                                    <a href="https://mtgdatafish.herokuapp.com/" target="_blank"><label
-                                            class="label">MTG Data Fish</h3></a>
-                                    <br>
-                                    <a href="https://github.com/EricVincitore/mongoose-hw" target="_blank"><label
-                                        class="label">Github Page
-                                        </h3></a>
+                                    <button type="button" class="btn  btn-secondary fishBtn" data-toggle="modal" data-target="#exampleModal">
+                                        MTG Data Fish
+                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -227,5 +245,7 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="assets/js/portfolio.js"></script>
 
 </html>

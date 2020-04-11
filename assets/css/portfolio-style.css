@@ -6,7 +6,7 @@ body {
     background-size: cover;
 }
 
-a:not([href]):not([tabindex]), a:not([href]):not([tabindex]) :hover {
+.nav-item:not([href]):not([tabindex]), .nav-item:not([href]):not([tabindex]) :hover {
     color: #fff;
     background-color: #4aaaa5;
 }
@@ -39,7 +39,7 @@ a:not([href]):not([tabindex]), a:not([href]):not([tabindex]) :hover {
     margin: 0% 0% 0% 75%;
 }
 
-a {
+.nav-item {
     color: #666;
 } 
 
@@ -91,4 +91,21 @@ h2 {
     color: #4aaaa5;
     text-decoration: underline; 
     cursor: pointer;
+}
+
+.btn-secondary {
+    background-color: #4aaaa5;
+}
+
+.btn-secondary:hover {
+    background-color: #4aaaa5;
+    opacity: .7;
+}
+
+.btn-secondary:active {
+    background-color: #4aaaa5;
+}
+
+.modal-content {
+    background-color: #CDCDCD;
 }
