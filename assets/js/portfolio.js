@@ -18,8 +18,8 @@ $(".mhwBtn").click(function() {
     event.preventDefault();
     $(".modal-title").html("Monster Clicker: World")
     $(".modal-body").html("Test your memory with this Monster Hunter: World themed game. This app was developed using React, Node and Bootstrap")
-    $(".appBtn").attr("href", "https://ericvincitore.github.io/clicky-game/")
-    $(".gitBtn").attr("href", "https://github.com/EricVincitore/clicky-game")
+    $(".appBtn").attr("href", "http://EricVincitore.github.io/Monster-Clicker")
+    $(".gitBtn").attr("href", "https://github.com/EricVincitore/Monster-Clicker")
 });
 
 $(".gifBtn").click(function() {
