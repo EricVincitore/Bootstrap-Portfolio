@@ -18,16 +18,18 @@ Find out more about Eric by reading his introduction on the about page.
 ### Portfolio
 See the different projects Eric has worked on and completed on the Portfolio page.  
 
-* To see different projects click the title of the project you are looking to explore or navigate to Eric's Git-Hub page using the following link.  
+* To see different projects click the title button of the project you are looking to explore to open a modal about the project.  
 
-* Git-Hub Page  
-https://github.com/EricVincitore  
+* Project Button  
+![Portfolio](assets/images/projectBtn.PNG)
 
-* Portfolio Page  
-![Portfolio](assets/images/portfolio.PNG)
+* Once a project button has been clicked a modal will appear with a description of the project as well as the tools and technologies used  to create it. The user can then click the "View App" button to open the app on a new tab or the "Github Page" button ot the view the repository of the application.
+
+* Project Button  
+![Portfolio](assets/images/modal.PNG)
 
 ### Contact Page
-Connect with Eric by filling out the contact form on the Contact page. Once submit is clicked the email will generate into teh default email program the user has set up and final edits can be made in the platform.
+Connect with Eric by filling out the contact form on the Contact page. Once submit is clicked the email will generate into the default email program the user has set up and final edits can be made in the platform.
 
 ## Links
 
