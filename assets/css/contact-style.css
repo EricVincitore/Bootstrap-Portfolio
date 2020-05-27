@@ -65,6 +65,18 @@ h2 {
     color: #4aaaa5;
 }
 
+.submit {
+    background-color: #4aaaa5;
+
+}
+.submit:hover{ 
+    cursor: pointer;
+    background-color: #4aaaa5;
+    color: #fff;
+    opacity: .7;
+}
+
+
 .footer {
     background-color: #666;
     border-top-color: #4aaaa5;
